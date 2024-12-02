@@ -1,0 +1,31 @@
+experiment:
+  name: "fastgraph_rag_prompt_analysis"
+  description: "Analyzing text using FastGraph-RAG"
+
+data:
+  papers_dir: "./data"
+  processed_dir: "./data/processed"
+
+graphrag:
+  domain: "Analyze different types of AI agents, their implementations and applications. Focus on identifying agent names, categories, their functionalities, use cases, and relationships between different agent types."
+  
+  entity_types:
+    - "Agent_Name"
+    - "Agent_Category"
+    - "Agent_Type"
+    - "Implementation"
+    - "Feature"
+    - "Component"
+    - "Use_Case"
+    
+  example_queries:
+    - "What are the main categories of AI agents and their characteristics?"
+    - "How do educational agents differ from business-oriented agents?"
+    - "What are the key features of memory-enhanced conversational agents?"
+    - "How do multi-agent collaboration systems handle task distribution?"
+    - "What are common applications of creative content generation agents?"
+    - "How are analysis agents used in business scenarios?"
+    - "What are the relationships between different types of educational agents?"
+    - "How do different agent frameworks compare in terms of capabilities?"
+    - "What components are commonly used in building business analysis agents?"
+    - "How do different agent types handle memory and context management?"
