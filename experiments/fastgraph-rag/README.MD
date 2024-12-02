@@ -14,18 +14,7 @@ pip install -r requirements.txt
 
 1. Place your text file in the data directory
 2. Configure analysis parameters in `config.yaml`
-3. Run the analysis:
-
-```python
-from src.graph_rag import PromptAnalyzer
-
-analyzer = PromptAnalyzer("./config/config.yaml")
-
-response = analyzer.analyze_techniques(
-    "What are the main categories of AI agents?"
-)
-print(response.response)
-```
+3. Set up your OpenAI API key and run the analysis
 
 ## 📁 Project Structure
 
